@@ -36,5 +36,6 @@ public class JpaTest {
         /*按照开启的返回顺序进行关闭*/
         em.close();
         factory.close();
+        factory.
     }
 }
