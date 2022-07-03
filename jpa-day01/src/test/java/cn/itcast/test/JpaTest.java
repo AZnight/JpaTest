@@ -33,7 +33,7 @@ public class JpaTest {
         em.persist(customer);//保存操作
         tx.commit();//提交事务
         /*释放资源 */
-
+        /*按照开启的返回顺序进行关闭*/
         em.close();
         factory.close();
     }
